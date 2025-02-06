@@ -3,10 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Parth</title>
+    <title>Navigation Bar Example</title>
+    <!-- Your JSX styles and stylesheets go here -->
 </head>
 <body>
-    <h1>Parth</h1>
-    <h2>Adding new Heading tree</h2>
+    <nav id="nav" accept="text/html,application/xhtml+xml,queryphp">
+        <div class="container mx-auto px-4 py-8">
+            <ul class="flex justify-between items-center">
+                <!-- Home -->
+                <li> navigate to: <a href="#" target="_blank" class="text-gray-700 hover:text-blue-500">Home</a> </li>
+
+                <!-- About -->
+                <li> navigate to: <a href="#" target="_blank" class="text-gray-700 hover:text-blue-500">About</a> </li>
+
+                <!-- Projects/Experiments -->
+                <li> navigate to: <a href="#" target="_blank" class="text-gray-700 hover:text-blue-500">Projects/Experiments</a> </li>
+                <li> navigate to: <a href="#" target="_blank" class="text-gray-700 hover:text-blue-500">Research</a> </li>
+
+                <!-- Contact -->
+                <li> navigate to: <a href="#" target="_blank" class="text-gray-700 hover:text-blue-500">Contact</a> </li>
+
+                <!-- Other Links -->
+                <li> navigate to: <a href="#" target="_blank" class="text-gray-700 hover:text-blue-500">Publications</a> </li>
+                <li> navigate to: <a href="#" target="_blank" class="text-gray-700 hover:text-blue-500">Software</a> </li>
+
+                <!-- Notification Button -->
+                <li> navigate to: <a href="#" target="_blank" class="text-gray-700 hover:text-blue-500">News</a> </li>
+
+                <button id="translate" class="md:hidden">
+                    <i class="bi bi-translate"></i> Translate
+                </button>
+
+                <!-- Close Button -->
+                <li> navigate to: <a href="#" target="_blank" class="text-gray-700 hover:text-blue-500">X</a> </li>
+            </ul>
+
+            <!-- Back To Home -->
+            <div id="back">Back to [url] [if url is available]</div>
+        </div>
+    </nav>
+
+    <!-- <script src="your-javascript-stylesheets.js"></script> -->
 </body>
 </html>
